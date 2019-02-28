@@ -1,0 +1,37 @@
+cap 4)
+
+Þg 99 -
+? Network architecture: A method of describing the logical design of a network of computers and how they interact.
+? Network topology: Describes the physical connections between devices on a network.
+
+? Cloud networking: A service that combines LAN, WAN, and management functionality necessary to offer IT-related capabilities as a service to client
+
+? arquiteturas:										   _____
+ • peer-to-peer: cada cliente é um servidor							|
+ • cliente servidor: servidor centralizado							|-?pg 129
+ • serviço de diretório(active directory): diretório centralizado para todos os servidores _____|
+ • híbrido: peer to peer com cliente servidor
+ ? resumo na pagina 129
+
+
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦                   ¦¦
+¦¦¦¦¦¦¦¦                ¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+
+? Figure 4-2
+
+
+¦¤????§¶?????????"# !$aA-,+*)435=CDEWY457ø£Øx
+
+
+
+?????6?•??????¤???????
