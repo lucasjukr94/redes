@@ -1,37 +1,109 @@
+Aula 2)
+
+Encapsulation The process by which header and trailer information is appended to a data packet as it passes from computer to computer over a network.
+
+pag 69 - Figure 2-4 decorar camada por camada
+
+Transporte - estÃ¡ passando de software para hardware.
+
+Pag 82 - Modelo OSI e TCP/IP
+
+https://quizlet.com/32280775/ch2-networking-flash-cards/
+ __  __   ______   __
+|--\|--| |---_--| | /---
+|------| |--|_|-| |/---
+|__|\__| |______| O
+
+
+
+<Aula 3>
+
+pag 70 - Figura 3.2 - 3.3
+
+Camada -> Physical Data Link:
+	Ethernet = 802.3 - tem detecÃ§Ã£o de colisÃ£o
+	Token Ring = 802.5 - nÃ£o tem colisÃ£o
+
+Hub usa protocolo ethernet
+MAU usa protocolo token ring
+Figure 3.4) Bridge serve pra traduzir protocolo ethernet <-> token ring
+Figure 3.5) Bridge tambÃ©m serve para segmentar redes, para evitar aumento de colisÃµes(interferÃªncias)
+
+Com fio Ã© CSMA/CD - Collision Detection
+Sem fio tambÃ©m Ã© ethernet, mas Ã© CSMA/CA - Collision Avoidance, checa se o caminho estÃ¡ livre para mandar sinal(o tempo de espera Ã© o backoff)
+
+Camada -> Network:
+	IP - internet protocolo 
+
+Camada -> Transport:
+	TCP - Transmission Control Protocol
+
+Subnet mask:				MÃ¡scara de Subrede:
+A portion of the IP address		PorÃ§Ã£o do IP que indica
+that identifies which part of		o tipo de endereÃ§o host.
+the 32 bits is the host address		
+and which part is the network		
+address for the system.			
+
+Dynamic Host				DHCP:
+Configuration				Fornece automaticamente o IP
+Protocol (DHCP):			para a mÃ¡quina(empresta, e dps	
+This service dynamically		pega o IP de volta para evitar
+assigns network addresses		fim do IPv4)
+from a central host.			
+
+Domain Name System (DNS): Protocol and service used for host name
+to IP address resolution.
+
+
+
+   /)/)
+  ( o.o)
+  (  ><)
+    U U
+-[8(|)-(monkey
+
+</Aula 3>
+
+
 cap 4)
 
-Þg 99 -
+Ãžg 99 -
 ? Network architecture: A method of describing the logical design of a network of computers and how they interact.
 ? Network topology: Describes the physical connections between devices on a network.
 
 ? Cloud networking: A service that combines LAN, WAN, and management functionality necessary to offer IT-related capabilities as a service to client
 
 ? arquiteturas:										   _____
- • peer-to-peer: cada cliente é um servidor							|
- • cliente servidor: servidor centralizado							|-?pg 129
- • serviço de diretório(active directory): diretório centralizado para todos os servidores _____|
- • híbrido: peer to peer com cliente servidor
+ â€¢ peer-to-peer: cada cliente Ã© um servidor							|
+ â€¢ cliente servidor: servidor centralizado							|-?pg 129
+ â€¢ serviÃ§o de diretÃ³rio(active directory): diretÃ³rio centralizado para todos os servidores _____|
+ â€¢ hÃ­brido: peer to peer com cliente servidor
  ? resumo na pagina 129
 
 
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦                   ¦¦
-¦¦¦¦¦¦¦¦                ¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦   Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦                   Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦                Â¦Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦
+Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦
 
 ? Figure 4-2
 
 
-¦¤????§¶?????????"# !$aA-,+*)435=CDEWY457ø£Øx
+Â¦Â¤????Â§Â¶?????????"# !$aA-,+*)435=CDEWY457Ã¸Â£Ã˜x
 
 
 
-?????6?•??????¤???????
+?????6?â€¢??????Â¤???????
+
+
+
+cap 5)
