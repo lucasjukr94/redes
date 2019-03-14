@@ -107,3 +107,23 @@ cap 4)
 
 
 cap 5)
+
+cap 6)
+Table 6-3 pg 181
+cabos UTP e Fibra optica
+Placa de rede trabalha no nível 2
+hub - controlador de distribuição de redes multiportas
+switch - mesmo q o hub, mas com controle de colisão
+Repeater - A network device that ampli?es a data signal. A repeater is used to connect network cable segments to extend a network.
+	- Repete o sinal. Nivel 1 OSI
+Bridge - Conecta redes locais. Nivel 2 OSI
+Router - A network communication device used to connect two or more networks or network types. Nivel 3 OSI
+Brouter - roteador + bridge
+Gateway - Nível 7 OSI
+
+Prova ate cap 9 daki 1 mes desde 13/03
+Apresentação são os capitulos restantes do livro + outro livro
+
+    //   __
+=:B-K|--K__
+    \\
