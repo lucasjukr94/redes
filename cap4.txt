@@ -9,12 +9,6 @@ Transporte - está passando de software para hardware.
 Pag 82 - Modelo OSI e TCP/IP
 
 https://quizlet.com/32280775/ch2-networking-flash-cards/
- __  __   ______   __
-|--\|--| |---_--| | /---
-|------| |--|_|-| |/---
-|__|\__| |______| O
-
-
 
 <Aula 3>
 
@@ -55,14 +49,6 @@ from a central host.
 Domain Name System (DNS): Protocol and service used for host name
 to IP address resolution.
 
-
-
-   /)/)
-  ( o.o)
-  (  ><)
-    U U
--[8(|)-(monkey
-
 </Aula 3>
 
 
@@ -81,30 +67,7 @@ cap 4)
  • híbrido: peer to peer com cliente servidor
  ? resumo na pagina 129
 
-
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦   ¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦                   ¦¦
-¦¦¦¦¦¦¦¦                ¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-
 ? Figure 4-2
-
-
-¦¤????§¶?????????"# !$aA-,+*)435=CDEWY457ø£Øx
-
-
-
-?????6?•??????¤???????
-
-
 
 cap 5)
 
@@ -123,7 +86,27 @@ Gateway - Nível 7 OSI
 
 Prova ate cap 9 daki 1 mes desde 13/03
 Apresentação são os capitulos restantes do livro + outro livro
+    
+cap 7)
+níveis de IPv4 WAN:
+classe A -> empresa grande 11111111 255.0.0.0
+classe B -> empresa média 11111111.11111111 255.255.0.0
+classe C -> empresa pequena 11111111.11111111.11111111. 255.255.255.0
 
-    //   __
-=:B-K|--K__
-    \\
+IP LAN: 192.168.0.... 10.1.12...
+
+métodos para resolver o problema de limitação de IPs:
+-subnet mask
+-DHCP - sistema automatizado que da IP e pega devolta
+
+TCP - tem controle de erro => mais lento
+UDP - não tem controle de erro
+
+Rede de fronteira -> proxy (segurança para limitar acesso WAN para LAN ou vice versa)
+
+tabela 7-2: sempre se tira o primeiro e o último IP(nunca são usados)
+
+IPv6 -> mais utilizado em internet das coisas
+
+DNS - converte IP para nome
+
