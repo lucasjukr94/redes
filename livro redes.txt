@@ -1,0 +1,28 @@
+Gabarito
+
+Cap 1)
+1.true 2.d 3.a 4.d 5.b 6.c 7.false 8.d 9.a 10.a 11.c 12.c 13.d 14.c 15.true 16.b 17.b 18.d 19.c 20.c
+
+Cap 2)
+1.true 2.a 3.d 4.false 5.d 6.a 7.b 8.d 9.c 10.c 11.a 12.a 13.c 14.a
+
+Cap 3)
+1.true 2.c 3.a 4.true 5.true 6.b 7.d 8.a 9.a 10.b
+
+Cap 4)
+1.a 2.false 3.b 4.true 5.true 6.b 7.d 8.b 9.c 10.a 11.true 12.false 13.b 14.false 15.a 16.c
+
+Cap 5)
+1.true 2.a 3.c 4.b 5.c 6.a 7.false 8.a 9.a 10.true 11.false 12.c 13.a 14.d 15.c 16.d
+
+Cap 6)
+1.false 2.d 3.c 4.a 5.a 6.d 7.false 8.b 9.c 10.d 11.true 12.false 13.b 14.c
+
+Cap 7)
+1.c 2.b 3.d 4.false 5.a 6.b 7.c 8.true 9.b 10.c 11.b 12.d 13.true
+
+Cap 8)
+1.a 2.d 3.b 4.c 5.d 6.true 7.true 8.b 9.a 10.b 11.c 12.d
+
+Cap 9)
+1.false 2.d 3.c 4.a 5.c 6.true 7.a 8.b 9.a 10.a 11.false 12.c
