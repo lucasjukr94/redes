@@ -1,0 +1,46 @@
+cap 5
+1	c
+2	b
+3	a
+4	d
+5	d
+6	a
+7	a
+8	b
+9	a
+10	c
+
+1	ping-10<ip>
+2	path ping
+3	ipconfig
+4	path ping
+5	ftp-i[ip]
+6	tracert
+7	nbstat
+8	ping[ip]
+9	ipconfig/flushdns-ipconfig/displaydns
+10	nbstat
+
+
+cap 6
+1	c
+2	b
+3	d
+4	b
+5	b
+6	c
+7	c
+8	a
+9	b
+10	d
+
+1	dns
+2	wins
+3	discovery
+4	2(dois)
+5	adm.tools
+6	6(seis)
+7	ipconfig/release & ipconfig/renew
+8	apipa
+9	RDS
+10	VPN
